@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebAPI", "1 - WebAPI", "{F78D8EDA-98DC-4C97-AB3D-E754A0980340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{D40DDFFC-88FB-4AB2-931D-D209DBBA4FC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{D39A6561-FB41-45EE-81EC-C34D07FA250B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{836B2417-2B3F-4414-8C43-B51E9698F862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{D9CFAC27-120F-4978-9D0A-AD3F20E3C977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain", "Source\Components\ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj", "{4D5A0204-77BD-419A-98D8-878EAC88DB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain.Core", "Source\Components\ControleFinanceiro.Domain.Core\ControleFinanceiro.Domain.Core.csproj", "{B6670005-62A8-475A-BF56-EFB2E8BF6468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D5A0204-77BD-419A-98D8-878EAC88DB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5A0204-77BD-419A-98D8-878EAC88DB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5A0204-77BD-419A-98D8-878EAC88DB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5A0204-77BD-419A-98D8-878EAC88DB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{836B2417-2B3F-4414-8C43-B51E9698F862} = {D39A6561-FB41-45EE-81EC-C34D07FA250B}
+		{D9CFAC27-120F-4978-9D0A-AD3F20E3C977} = {D39A6561-FB41-45EE-81EC-C34D07FA250B}
+		{4D5A0204-77BD-419A-98D8-878EAC88DB30} = {D40DDFFC-88FB-4AB2-931D-D209DBBA4FC6}
+		{B6670005-62A8-475A-BF56-EFB2E8BF6468} = {D40DDFFC-88FB-4AB2-931D-D209DBBA4FC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11A65A01-E6E0-472A-ABDE-32C0DE20283C}
+	EndGlobalSection
+EndGlobal
