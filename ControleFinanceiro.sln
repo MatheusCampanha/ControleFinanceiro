@@ -13,9 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{D9CFAC27-120F-4978-9D0A-AD3F20E3C977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain", "Source\Components\ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj", "{4D5A0204-77BD-419A-98D8-878EAC88DB30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Domain", "Source\Components\ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj", "{4D5A0204-77BD-419A-98D8-878EAC88DB30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain.Core", "Source\Components\ControleFinanceiro.Domain.Core\ControleFinanceiro.Domain.Core.csproj", "{B6670005-62A8-475A-BF56-EFB2E8BF6468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Domain.Core", "Source\Components\ControleFinanceiro.Domain.Core\ControleFinanceiro.Domain.Core.csproj", "{B6670005-62A8-475A-BF56-EFB2E8BF6468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro", "Source\WebAPI\ControleFinanceiro\ControleFinanceiro.csproj", "{50740219-35DC-49D9-9EAB-D226075E00DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Infra.CrossCutting", "Source\Components\ControleFinanceiro.Infra.CrossCutting\ControleFinanceiro.Infra.CrossCutting.csproj", "{5D7CD54D-9CA6-4BC3-8E57-6BDCA0DB78B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Infra.Data", "Source\Components\ControleFinanceiro.Infra.Data\ControleFinanceiro.Infra.Data.csproj", "{204CB65B-5454-48CB-82E2-6159FF252050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,18 @@ Global
 		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6670005-62A8-475A-BF56-EFB2E8BF6468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50740219-35DC-49D9-9EAB-D226075E00DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50740219-35DC-49D9-9EAB-D226075E00DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50740219-35DC-49D9-9EAB-D226075E00DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50740219-35DC-49D9-9EAB-D226075E00DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7CD54D-9CA6-4BC3-8E57-6BDCA0DB78B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7CD54D-9CA6-4BC3-8E57-6BDCA0DB78B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7CD54D-9CA6-4BC3-8E57-6BDCA0DB78B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7CD54D-9CA6-4BC3-8E57-6BDCA0DB78B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204CB65B-5454-48CB-82E2-6159FF252050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204CB65B-5454-48CB-82E2-6159FF252050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204CB65B-5454-48CB-82E2-6159FF252050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204CB65B-5454-48CB-82E2-6159FF252050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +58,9 @@ Global
 		{D9CFAC27-120F-4978-9D0A-AD3F20E3C977} = {D39A6561-FB41-45EE-81EC-C34D07FA250B}
 		{4D5A0204-77BD-419A-98D8-878EAC88DB30} = {D40DDFFC-88FB-4AB2-931D-D209DBBA4FC6}
 		{B6670005-62A8-475A-BF56-EFB2E8BF6468} = {D40DDFFC-88FB-4AB2-931D-D209DBBA4FC6}
+		{50740219-35DC-49D9-9EAB-D226075E00DB} = {F78D8EDA-98DC-4C97-AB3D-E754A0980340}
+		{5D7CD54D-9CA6-4BC3-8E57-6BDCA0DB78B3} = {D9CFAC27-120F-4978-9D0A-AD3F20E3C977}
+		{204CB65B-5454-48CB-82E2-6159FF252050} = {836B2417-2B3F-4414-8C43-B51E9698F862}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11A65A01-E6E0-472A-ABDE-32C0DE20283C}
