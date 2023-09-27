@@ -4,7 +4,7 @@ using ControleFinanceiro.Domain.Core.Logger.Interfaces;
 using ControleFinanceiro.Infra.Data.Repositories.DicQueries;
 using Dapper;
 using System.Data;
-using System.Data.SQLite;
+using System.Data.SqlClient;
 
 namespace ControleFinanceiro.Infra.Data.Repositories
 {
@@ -19,7 +19,7 @@ namespace ControleFinanceiro.Infra.Data.Repositories
 
         public async Task Inserir(LogRequestResponse entidade)
         {
-            using var connection = new SQLiteConnection(_settings.ConnectionStrings.ControleFinanceiroDB);
+            using var connection = new SqlConnection(_settings.ConnectionStrings.ControleFinanceiroDB);
             var param = new DynamicParameters();
             param.Add("@MachineName", entidade.MachineName);
             param.Add("@DataEnvio", entidade.DataEnvio);

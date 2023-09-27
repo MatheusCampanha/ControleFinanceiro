@@ -13,10 +13,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Controllers\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<ProjectReference Include="..\..\Components\ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj" />
 		<ProjectReference Include="..\..\Components\ControleFinanceiro.Infra.CrossCutting\ControleFinanceiro.Infra.CrossCutting.csproj" />
 	</ItemGroup>
